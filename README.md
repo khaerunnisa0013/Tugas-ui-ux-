@@ -295,9 +295,6 @@
 
 <iframe src="https://www.w3schools.com" style="width: 160px; height: 100px; border-radius: 6px;"></iframe>
 
-<address style="width: 160px; padding: 12px; background: #80deea; border-radius: 6px;">
-  <a href="mailto:someone@example.com">someone@example.com</a>
-</address>
 
 <kbd style="background-color: #cfd8dc; padding: 12px; border-radius: 8px;">
   keyboard
