@@ -1,5 +1,3 @@
-# Tugas-ui-ux-
-100 tag html dan css
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -125,142 +123,186 @@
 </html>
 
 
+
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>100 Unique HTML Tags with Inline CSS</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>100 Tag HTML dengan CSS Inline - Rapi Lengkap</title>
 </head>
-<body>
+<body style="margin: 0; padding: 20px; font-family: Arial, sans-serif; background: #f0f4f8; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
 
-<!-- 100 unique HTML tags with inline CSS and English descriptions -->
-<ol>
-  <li><a href="#" style="color:blue;">Anchor link</a></li>
-  <li><abbr title="HyperText Markup Language" style="color:green;">Abbreviation (abbr)</abbr></li>
-  <li><address style="font-style:italic;">Contact address</address></li>
-  <li><area alt="Map Area" coords="34,44,270,350" shape="rect" style="outline:1px solid red;"></area></li>
-  <li><article style="border:1px solid #ccc; padding:10px;">Article content</article></li>
-  <li><aside style="background:#f0f0f0; padding:10px;">Sidebar content</aside></li>
-  <li><audio controls style="width:200px;"><source src="audio.mp3" type="audio/mpeg"></audio></li>
-  <li><b style="color:red;">Bold text</b></li>
-  <li><base href="/" style="display:none;">Base URL</base></li>
-  <li><bdi style="direction:rtl;">Bi-directional text</bdi></li>
-  <li><bdo dir="rtl" style="color:purple;">Override text direction</bdo></li>
-  <li><blockquote style="border-left:4px solid gray; padding:5px;">Block quotation</blockquote></li>
-  <li><body style="margin:0;">Main body</body></li>
-  <li><br style="line-height:2;">Line break</br></li>
-  <li><button style="background-color:yellow;">Button</button></li>
-  <li><canvas width="100" height="100" style="border:1px solid black;">Canvas</canvas></li>
-  <li><caption style="color:blue;">Table caption</caption></li>
-  <li><cite style="color:gray;">Citation</cite></li>
-  <li><code style="background:#eee;">Inline code</code></li>
-  <li><col style="background:#f9f9f9;">Table column</col></li>
-  <li><colgroup style="background:#ddd;">Column group</colgroup></li>
-  <li><data value="123" style="color:green;">Data value</data></li>
-  <li><datalist id="list" style="color:red;"></datalist></li>
-  <li><dd style="margin-left:20px;">Definition detail</dd></li>
-  <li><del style="text-decoration:line-through;">Deleted text</del></li>
-  <li><details style="border:1px solid #000;"><summary>Details</summary>Hidden content</details></li>
-  <li><dfn style="font-style:italic;">Definition term</dfn></li>
-  <li><dialog open style="border:1px solid #000;">Dialog box</dialog></li>
-  <li><div style="background-color:#eee;">Content container</div></li>
-  <li><dl style="margin:10px;">Description list</dl></li>
-  <li><dt style="font-weight:bold;">Definition term</dt></li>
-  <li><em style="color:orange;">Emphasized text</em></li>
-  <li><embed src="file.pdf" type="application/pdf" style="width:200px; height:200px;"></embed></li>
-  <li><fieldset style="border:2px dashed gray;">Form group</fieldset></li>
-  <li><figcaption style="font-style:italic;">Figure caption</figcaption></li>
-  <li><figure style="border:1px solid #ccc;">Figure element</figure></li>
-  <li><footer style="background:#333; color:white;">Page footer</footer></li>
-  <li><form style="padding:10px;">Form element</form></li>
-  <li><div style="font-size:24px; font-weight:bold; color:red;">Heading 1 replaced with div</div></li>
-  <li><head style="display:none;">Document head</head></li>
-  <li><header style="background:#ccc;">Page header</header></li>
-  <li><hgroup style="margin:5px;">Heading group</hgroup></li>
-  <li><hr style="border:1px solid black;">Horizontal line</hr></li>
-  <li><html style="display:block;">HTML root</html></li>
-  <li><i style="color:teal;">Italic text</i></li>
-  <li><iframe src="https://example.com" style="width:100px; height:50px;"></iframe></li>
-  <li><img src="https://via.placeholder.com/50" alt="Image" style="border:1px solid black;"></li>
-  <li><input type="text" style="border:1px solid gray;"></li>
-  <li><ins style="text-decoration:underline;">Inserted text</ins></li>
-  <li><kbd style="background:#f1f1f1;">Keyboard input</kbd></li>
-  <li><label style="color:brown;">Label</label></li>
-  <li><legend style="font-weight:bold;">Fieldset legend</legend></li>
-  <li><li style="margin-left:10px;">List item</li></li>
-  <li><link rel="stylesheet" href="#" style="display:none;"></li>
-  <li><main style="padding:5px;">Main content</main></li>
-  <li><map name="map" style="border:1px solid red;">Image map</map></li>
-  <li><mark style="background:yellow;">Highlighted text</mark></li>
-  <li><menu style="background:#eee;">Menu list</menu></li>
-  <li><meta charset="UTF-8" style="display:none;"></li>
-  <li><meter value="0.6" style="width:100px;">Meter bar</meter></li>
-  <li><nav style="background:#f5f5f5;">Navigation menu</nav></li>
-  <li><noscript style="color:red;">No JavaScript message</noscript></li>
-  <li><object data="file.swf" style="width:100px; height:100px;">Object embed</object></li>
-  <li><ol style="list-style:upper-roman;">Ordered list</ol></li>
-  <li><optgroup label="Group" style="color:gray;"></optgroup></li>
-  <li><option style="color:green;">Select option</option></li>
-  <li><output style="color:blue;">Form output</output></li>
-  <li><p style="color:gray;">Paragraph</p></li>
-  <li><picture style="display:block;">Responsive image</picture></li>
-  <li><pre style="font-family:monospace;">Preformatted text</pre></li>
-  <li><progress value="50" max="100" style="width:100px;">Progress bar</progress></li>
-  <li><q style="quotes:'«' '»';">Inline quote</q></li>
-  <li><rp style="display:none;">Ruby parentheses</rp></li>
-  <li><rt style="color:gray;">Ruby text</rt></li>
-  <li><ruby style="border-bottom:1px dotted;">Ruby annotation</ruby></li>
-  <li><s style="text-decoration:line-through;">Strikethrough text</s></li>
-  <li><samp style="color:navy;">Sample output</samp></li>
-  <li><script style="display:none;">console.log('Hi')</script></li>
-  <li><section style="padding:10px;">Section of page</section></li>
-  <li><select style="border:1px solid black;"><option>Dropdown item</option></select></li>
-  <li><small style="font-size:smaller;">Small text</small></li>
-  <li><source src="movie.mp4" style="display:none;"></source></li>
-  <li><span style="color:magenta;">Text span</span></li>
-  <li><strong style="font-weight:bolder;">Strong importance</strong></li>
-  <li><style style="display:none;">CSS styling</style></li>
-  <li><sub style="font-size:smaller;">Subscript text</sub></li>
-  <li><summary style="cursor:pointer;">Details summary</summary></li>
-  <li><sup style="font-size:smaller;">Superscript text</sup></li>
-  <li><svg width="50" height="50" style="border:1px solid black;"></svg></li>
-  <li><table style="border-collapse:collapse;"><tr><td>Table cell</td></tr></table></li>
-  <li><tbody style="border:1px solid gray;"></tbody></li>
-  <li><td style="border:1px solid black;">Table data</td></li>
-  <li><template style="display:none;"><p>Template content</p></template></li>
-  <li><textarea style="width:100px;">Textarea field</textarea></li>
-  <li><tfoot style="background:#eee;">Table footer</tfoot></li>
-  <li><th style="font-weight:bold;">Table heading</th></li>
-  <li><thead style="background:#ccc;">Table header</thead></li>
-  <li><time datetime="2025-05-05" style="color:blue;">May 5, 2025</time></li>
-  <li><title style="display:none;">Document title</title></li>
-  <li><tr style="border:1px solid black;">Table row</tr></li>
-  <li><track src="sub.vtt" kind="subtitles" style="display:none;"></track></li>
-  <li><u style="text-decoration:underline;">Underlined text</u></li>
-  <li><ul style="list-style:circle;">Unordered list</ul></li>
-  <li><var style="font-style:italic;">Variable name</var></li>
-  <li><video width="200" controls style="border:1px solid black;"></video></li>
-  <li><wbr style="display:inline;">Word break opportunity</wbr></li>
-  <li><output style="display:inline-block; background:#eef0f2; padding:4px;">86. Output element</output></li>
-  <li><template>87. Template (invisible by default)</template></li>
-  <li><datalist id="skillsList"><option value="HTML"><option value="CSS"><option value="JavaScript"></datalist>88. Datalist element</li>
-  <li><slot name="content">89. Slot placeholder content</slot></li>
-  <li><dialog open style="border:1px solid #999; padding:10px;">90. Dialog Box Element</dialog></li>
-  <li><div style="font-size:20px; font-weight:bold;">91. Custom heading replacing &lt;h1&gt;</div></li>
-  <li><div style="font-size:18px; font-weight:bold;">92. Custom heading replacing &lt;h2&gt;</div></li>
-  <li><div style="font-size:16px; font-style:italic;">93. Custom heading replacing &lt;h3&gt;</div></li>
-  <li><div style="font-size:14px; text-decoration:underline;">94. Custom heading replacing &lt;h4&gt;</div></li>
-  <li><div style="font-size:13px; color:gray;">95. Custom heading replacing &lt;h5&gt;</div></li>
-  <li><section style="border:1px dotted blue; padding:5px;">96. Another section element</section></li>
-  <li><div style="padding:10px; background:#f2f2f2;">97. Generic content block</div></li>
-  <li><span style="background-color:lightblue;">98. Extra span element</span></li>
-  <li><mark style="color:black; background:lime;">99. Additional marked text</mark></li>
-  <li>
-    <figure style="text-align:center;">
-      <img src="https://via.placeholder.com/80" alt="Image">
-      <figcaption>100. Image with caption</figcaption>
-    </figure>
-  </li>
-</ol>
+  <div style="width: 160px; background: #ffe5e5; margin: 0; padding: 12px; border-radius: 8px; box-sizing: border-box; text-align: center;">
+    div
+  </div>
 
+  <span style="width: 160px; display: inline-block; color: #d84315; font-weight: 700; font-size: 18px; text-align: center; padding: 12px; background: #fff3e0; border-radius: 8px; box-sizing: border-box;">
+    span
+  </span>
+
+  <p style="width: 160px; margin: 0; padding: 12px; font-size: 14px; color: #00695c; background: #e0f2f1; border-radius: 8px; box-sizing: border-box; text-align: justify;">
+    p: Paragraf dengan teks warna hijau tua.
+  </p>
+
+  <h1 style="width: 160px; margin: 0; margin-bottom: 8px; font-size: 20px; color: #283593; text-align: center;">
+    h1 Judul besar
+  </h1>
+
+  <h2 style="width: 160px; margin: 0; margin-bottom: 8px; font-size: 18px; color: #ef6c00; text-align: center;">
+    h2 Judul sedang
+  </h2>
+
+  <h3 style="width: 160px; margin: 0; font-size: 16px; color: #00838f; text-align: center;">
+    h3 Judul kecil
+  </h3>
+
+  <a href="#" style="width: 160px; display: inline-block; color: #d81b60; font-weight: 700; text-decoration: none; padding: 12px; background: #fce4ec; border-radius: 8px; box-sizing: border-box; text-align: center;">
+    a Tautan
+  </a>
+
+  <button style="width: 160px; background: #1976d2; color: white; border: none; border-radius: 6px; cursor: pointer; padding: 10px; font-weight: bold; box-sizing: border-box;">
+    button
+  </button>
+
+  <input type="text" placeholder="input teks" style="width: 160px; padding: 8px; border: 1.5px solid #888; border-radius: 6px; box-sizing: border-box;" />
+
+  <textarea placeholder="textarea" style="width: 160px; height: 50px; border-radius:6px; border:1.5px solid #777; padding: 6px; resize:none; box-sizing: border-box;"></textarea>
+
+  <select style="width: 160px; padding: 8px; border-radius: 6px; border: 1.5px solid #555; background:#fff; box-sizing: border-box;">
+    <option>Pilihan Pertama</option>
+    <option>Pilihan Kedua</option>
+  </select>
+
+  <strong style="width: 160px; display: inline-block; font-weight: 900; color: #b71c1c; text-align: center; padding: 12px; background: #ffcdd2; border-radius: 8px; box-sizing: border-box;">
+    teks tebal
+  </strong>
+
+  <em style="width: 160px; display: inline-block; font-style: italic; color: #2e7d32; text-align: center; padding: 12px; background: #dcedc8; border-radius: 8px; box-sizing: border-box;">
+    teks miring
+  </em>
+
+  <small style="width: 160px; display: inline-block; color: #616161; font-size: 10px; text-align: center; padding: 12px; background: #f3e5f5; border-radius: 8px; box-sizing: border-box;">
+    teks kecil
+  </small>
+
+  <code style="width: 160px; display: inline-block; font-family: monospace; background: #e0e0e0; padding: 10px; border-radius: 6px; box-sizing: border-box; text-align: center;">
+    kode contoh
+  </code>
+
+  <pre style="width: 160px; background:#263238; color:#fff; font-family: monospace; padding: 8px; border-radius: 6px; overflow-x: auto; box-sizing: border-box;">
+    teks preformat
+  </pre>
+
+  <del style="width: 160px; display: inline-block; color: #c62828; text-decoration: line-through; text-align: center; padding: 12px; background: #ffcdd2; border-radius: 8px; box-sizing: border-box;">
+    teks coret (del)
+  </del>
+
+  <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=80" alt="gambar" style="width: 160px; height: 100px; border-radius: 8px; object-fit: cover;" />
+
+  <figure style="width: 160px; margin: 0; text-align: center; box-sizing: border-box;">
+    <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&h=80" alt="gambar figure" style="border-radius: 8px; width: 160px; height: auto;" />
+    <figcaption style="font-size: 10px; color: #666; margin-top: 4px;">keterangan gambar</figcaption>
+  </figure>
+
+  <hr style="width: 160px; border: 0; height: 3px; background: linear-gradient(to right, #2196f3, #21cbf3); border-radius: 6px;" />
+
+  <mark style="width: 160px; display: inline-block; background: #ffeb3b; color: black; padding: 12px; border-radius: 8px; box-sizing: border-box; text-align: center;">
+    teks mark (highlight)
+  </mark>
+
+  <b style="width: 160px; display: inline-block; font-weight: 700; color: #bf360c; padding: 12px; border-radius: 8px; background: #ffccbc; box-sizing: border-box; text-align: center;">
+    bold (b)
+  </b>
+
+  <u style="width: 160px; display: inline-block; text-decoration: underline; color: #00695c; padding: 12px; background: #b2dfdb; border-radius: 8px; box-sizing: border-box; text-align: center;">
+    underline (u)
+  </u>
+
+  <s style="width: 160px; display: inline-block; text-decoration: line-through; color: #d84315; padding: 12px; background: #ffcdd2; border-radius: 8px; box-sizing: border-box; text-align: center;">
+    strikethrough (s)
+  </s>
+
+  <label style="width: 160px; display: flex; align-items: center; gap: 8px; justify-content: center; background: #c5cae9; border-radius: 8px; padding: 10px; box-sizing: border-box; cursor: pointer; font-weight: 600;">
+    <input type="checkbox" style="width: 18px; height: 18px;" />
+    checkbox
+  </label>
+
+  <label style="width: 160px; display: flex; align-items: center; gap: 8px; justify-content: center; background: #ffe0b2; border-radius: 8px; padding: 10px; box-sizing: border-box; cursor: pointer; font-weight: 600;">
+    <input type="radio" name="radio-example" style="width: 18px; height: 18px;" />
+    radio
+  </label>
+
+  <!-- Additional Input Types -->
+  <input type="date" style="width: 160px; padding: 8px; border-radius: 6px; border: 1.5px solid #888; box-sizing: border-box;" />
+  <input type="time" style="width: 160px; padding: 8px; border-radius: 6px; border: 1.5px solid #888; box-sizing: border-box;" />
+  <input type="number" placeholder="Angka" style="width: 160px; padding: 8px; border-radius: 6px; border: 1.5px solid #888; box-sizing: border-box;" />
+  <input type="color" style="width: 160px; height: 36px; border-radius: 6px; border: 1.5px solid #888; box-sizing: border-box;" />
+  <input type="email" placeholder="Email" style="width: 160px; padding: 8px; border-radius: 6px; border: 1.5px solid #888; box-sizing: border-box;" />
+  <input type="url" placeholder="URL" style="width: 160px; padding: 8px; border-radius: 6px; border: 1.5px solid #888; box-sizing: border-box;" />
+  <input type="search" placeholder="Pencarian" style="width: 160px; padding: 8px; border-radius: 6px; border: 1.5px solid #888; box-sizing: border-box;" />
+  
 </body>
 </html>
+
+<details style="width: 160px; padding: 12px; background: #81c784; border-radius: 8px; text-align: center;">
+  <summary>Details</summary>
+  <p>This is a details section.</p>
+</details>
+
+<figcaption style="width: 160px; color: #424242; font-size: 12px; text-align: center;">
+  <p>figcaption</p>
+</figcaption>
+
+<pre style="background: #263238; color: #ffffff; padding: 10px; border-radius: 6px;">
+  preformatted text
+</pre>
+
+<progress value="50" max="100" style="width: 160px;">
+  Progress
+</progress>
+
+<output style="width: 160px; padding: 8px; background: #d32f2f; color: white; border-radius: 6px;">
+  Output
+</output>
+
+<small style="font-size: 10px; background: #f3e5f5; padding: 12px;">
+  small
+</small>
+
+<sub style="font-size: 12px; vertical-align: sub; background: #ffccbc; padding: 8px; border-radius: 6px;">
+  subscript
+</sub>
+
+<sup style="font-size: 12px; vertical-align: super; background: #ffee58; padding: 8px; border-radius: 6px;">
+  superscript
+</sup>
+
+<time datetime="2025-05-05" style="font-style: italic; padding: 8px; background: #b2dfdb; border-radius: 6px;">
+  time
+</time>
+
+<video controls style="width: 160px; background: #212121; padding: 8px; border-radius: 6px;">
+  <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<canvas id="myCanvas" width="160" height="160" style="background: #eeeeee; border-radius: 6px;"></canvas>
+
+<map name="image-map">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" target="_blank">
+</map>
+
+<iframe src="https://www.w3schools.com" style="width: 160px; height: 100px; border-radius: 6px;"></iframe>
+
+<address style="width: 160px; padding: 12px; background: #80deea; border-radius: 6px;">
+  <a href="mailto:someone@example.com">someone@example.com</a>
+</address>
+
+<kbd style="background-color: #cfd8dc; padding: 12px; border-radius: 8px;">
+  keyboard
+</kbd>
+
+<var style="background-color: #ffe0b2; padding: 12px; border-radius: 8px;">
+  variable
+</var>
