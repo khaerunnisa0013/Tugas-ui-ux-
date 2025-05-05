@@ -283,8 +283,7 @@
 </time>
 
 <video controls style="width: 160px; background: #212121; padding: 8px; border-radius: 6px;">
-  <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  
 </video>
 
 <canvas id="myCanvas" width="160" height="160" style="background: #eeeeee; border-radius: 6px;"></canvas>
