@@ -292,9 +292,6 @@
   <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" target="_blank">
 </map>
 
-<iframe src="https://www.w3schools.com" style="width: 160px; height: 100px; border-radius: 6px;"></iframe>
-
-
 <kbd style="background-color: #cfd8dc; padding: 12px; border-radius: 8px;">
   keyboard
 </kbd>
